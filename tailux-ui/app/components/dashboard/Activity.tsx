@@ -190,7 +190,7 @@ export default function ActivitySection() {
                 {item.icon}
                 <span className="text-white text-sm">{item.name}</span>
               </div>
-              <div className="flex gap-5 text-sm">
+              <div className="flex gap-5 text-sm relative left-4">
                 <span className="text-gray-400">{item.views}</span>
                 <span
                   className={
