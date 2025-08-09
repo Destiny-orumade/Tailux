@@ -2,6 +2,7 @@
 import DashboardLayout from '@/app/components/layouts/DashBoardLayout'
 import SalesReport from '@/app/components/dashboard/SalesReport'
 import StatsCards from '@/app/components/dashboard/StatsCard'
+import ProductTable from './components/dashboard/ProductTable'
 // import MiniWidgets from '@/app/components/dashboard/MiniWidgets'
 
 export default function DashboardHome() {
@@ -14,8 +15,9 @@ export default function DashboardHome() {
           <div className="xl:col-span-2">
             <SalesReport/>
           </div>
-          {/* <MiniWidgets /> */}
+  
         </div>
+         <ProductTable />
       </div>
     </DashboardLayout>
 

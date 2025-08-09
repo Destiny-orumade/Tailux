@@ -10,18 +10,29 @@ import {
 } from "recharts";
 
 const days = [
-  "10 Mar",
-  "11 Mar",
-  "12 Mar",
-  "13 Mar",
-  "14 Mar",
-  "15 Mar",
-  "16 Mar",
-  "17 Mar",
-  "18 Mar",
-  "19 Mar",
-  "20 Mar",
-  "21 Mar",
+  "10 Aug",
+  "11 Aug",
+  "12 Aug",
+  "13 Aug",
+  "14 Aug",
+  "15 Aug",
+  "16 Aug",
+  "17 Aug",
+  "18 Aug",
+  "19 Aug",
+  "20 Aug",
+  "21 Aug",
+  "22 Aug",
+  "23 Aug",
+  "24 Aug",     
+  "25 Aug",
+  "26 Aug",
+  "27 Aug",
+  "28 Aug",
+  "29 Aug",
+  "30 Aug",
+  "31 Aug",
+  "01 Sep",
 ];
 const data = days.map((d) => ({
   name: d,
@@ -66,7 +77,7 @@ export default function SalesReport() {
         </div>
       </div>
 
-      <div className="w-full lg:w-[40%] grid grid-cols-2 gap-4">
+      <div className="w-full  lg:w-[40%] grid grid-cols-2 gap-4">
         <div className="bg-[#1A1B29] p-4 rounded-lg">
           <h4 className="text-gray-400 mb-1">Earning</h4>
           <p className="text-xl font-semibold">$16.4k</p>
