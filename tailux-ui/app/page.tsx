@@ -3,7 +3,8 @@ import DashboardLayout from '@/app/components/layouts/DashBoardLayout'
 import SalesReport from '@/app/components/dashboard/SalesReport'
 import StatsCards from '@/app/components/dashboard/StatsCard'
 import ProductTable from './components/dashboard/ProductTable'
-// import MiniWidgets from '@/app/components/dashboard/MiniWidgets'
+import  Activity  from './components/dashboard/Activity'
+
 
 export default function DashboardHome() {
   return (
@@ -18,6 +19,7 @@ export default function DashboardHome() {
   
         </div>
          <ProductTable />
+         <Activity />
       </div>
     </DashboardLayout>
 
